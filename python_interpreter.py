@@ -109,4 +109,3 @@ stream = code_file.readlines()
 for line in stream:
     yacc.parse(line)
 
-sys.exit("Test error")
