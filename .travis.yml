@@ -2,4 +2,4 @@ language: python
 python:
   - "2.7"
 script:
-  - python python_interpreter.py
+  - python python_interpreter.py ex1.py
