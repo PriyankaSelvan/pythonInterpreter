@@ -108,3 +108,5 @@ code_file = open(filename,"r")
 stream = code_file.readlines() 
 for line in stream:
     yacc.parse(line)
+
+sys.exit("Test error")
