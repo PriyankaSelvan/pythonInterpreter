@@ -1,4 +1,6 @@
 from subprocess import *
+import sys
+
 output = Popen(["python", "python_interpreter.py", "ex1.py"], stdout=PIPE).communicate()[0]
 answers = output.split()
 actual = ['4', '6', '10', '12']
