@@ -5,4 +5,4 @@ cache: pip
 install:
   - pip install ply
 script:
-  - python python_interpreter.py ex1.py
+  - python test_script.py
