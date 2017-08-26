@@ -1,0 +1,25 @@
+The TRAVIS test running is the file test_script.py
+test_script.py runs python_interpreter.py with the input file ex1.py
+
+test_script.py
+-Runs tests
+-Compares answers
+-Exits with error if printed answers are wrong
+
+ex1.py
+-Statements to test python_interpreter.py
+
+python_interpreter.py
+-Uses ply (Python Lex and Yacc) library
+-tokens, definitions are defined for lex()
+-grammar rules and actions are defined for yacc()
+-Input is picked line by line from ex1.py, evaluated and action performed( Eventually "print answer" )
+
+To run Test usage
+-python test_script.py
+-If error, exits with error message
+-If not exits normally
+
+To run Interpreter
+-python python_interpreter.py <input_file>
+-Input file should contain basic python statements ( arithmetic operations and prints only)
