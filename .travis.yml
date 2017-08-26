@@ -1,8 +1,5 @@
 language: python
 python:
   - "2.7"
-cache: pip
-install:
-  - pip install ply
 script:
   - python python_interpreter.py
