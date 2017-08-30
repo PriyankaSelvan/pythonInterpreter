@@ -79,10 +79,6 @@ def p_term_divfactor(p):
     'term : term "/" factor'
     p[0] = p[1] / p[3]
 
-def p_expression_group(p):
-    "expression : '(' expression ')'"
-    p[0] = p[2]
- 
 def p_factor_number(p):
     "factor : NUMBER"
     p[0] = p[1]
